@@ -16,7 +16,7 @@ jobs:
       uses: aptible/aptible-deploy-action@v4
       with:
         type: git
-        app: luna
-        environment: aeonx
+        app: aeon
+        environment: luna
         username: ${{ secrets.APTIBLE_USERNAME }}
-        password: ${{ secrets.APTIBLE_PASSWORD }} 
+        password: ${{ secrets.APTIBLE_PASSWORD }}
